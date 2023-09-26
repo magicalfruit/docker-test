@@ -6,7 +6,7 @@ RUN apt update
 RUN apt install libstdc++6 libgcc1 libcurl4-gnutls-dev -y
 RUN mkdir steamcmd
 WORKDIR /dst/steamcmd
-RUN wget "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz"
+RUN wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz
 RUN tar -xvzf steamcmd_linux.tar.gz
 WORKDIR /dst
 
