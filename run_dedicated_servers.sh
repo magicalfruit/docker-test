@@ -1,7 +1,7 @@
 #!/bin/bash
 # still need to change working directories before using
 
-steamcmd_dir="/dsroott/steamcmd"
+steamcmd_dir="/steamcmd"
 install_dir="/root/dontstarvetogether_dedicated_server"
 cluster_name="MyDediServer" #folder name, not in the .ini
 dontstarve_dir="/root/.klei/DoNotStarveTogether"
