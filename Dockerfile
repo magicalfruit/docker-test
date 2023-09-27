@@ -16,5 +16,3 @@ RUN chmod u+x /steamcmd/run_dedicated_servers.sh
 EXPOSE 27000-27030
 EXPOSE 4380
 EXPOSE 10999
-
-#CMD /steamcmd/run_dedicated_servers.sh
